@@ -1,0 +1,164 @@
+body {
+    color: #ffffff;
+    background-color: #909090;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    margin:0
+}
+
+h1,
+h2,
+h3,
+a {
+    color: #e5e2e2;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal; 
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    text-shadow: 0 30px 10px black;
+    color: #3b3734
+}
+
+h2 {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 10px;
+    padding-right: 80%;
+}
+
+h3 {
+    font-size: 24px;
+    margin-top: 36px;
+}
+
+a {
+    font-style: italic;
+}
+
+
+.cestovanie,
+.kontakt,
+.varenie,
+.sport,
+.architektura {
+    background-color: #3b3734;
+    padding-left: 9%;
+    padding-right: 9%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-size: 16px;
+}
+
+.patička {
+    background-color: #5f5954;
+    color:#e5e2e2;
+    text-align: center;
+    padding: 2px 0px;
+}
+
+
+.foto-omne {
+    width: 270px;
+    height: 390px;
+    padding-left: 5%;
+    padding-right: 0%;
+    padding-bottom: 10px;
+    float:right;
+}
+
+.cestovanie img,
+.varenie img,
+.architektura img {
+    width: 24%;
+    border: 2px solid #ffffff;
+}
+
+.sport img {
+    width: 24%;
+    border: 2px solid #ffffff;
+}
+.kontakt img {
+    border-radius: 20px;
+    width: 80px;
+    padding-left: 17%;
+    padding-right: 17%;
+    padding-top: 5%;
+}
+
+
+th,
+td {
+    text-align: left;
+    border-bottom: 1px solid black;
+    padding: 10px 0px;
+}
+
+table {
+    border-spacing: 0px;
+}
+
+.cena {
+    text-align: right;
+    padding-left: 50px;
+
+}
+
+.omne{
+    padding-left: 20%;
+    padding-right: 10%;
+    padding-top: 0%;
+    text-align: justify;
+    font-size: 16px;
+    overflow: auto;
+
+}
+
+.section{
+    overflow: auto;
+}
+
+.hlavicka{
+    background-image: url(obrazky/19.jpg);
+    padding:150px 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.menu{
+    margin:0;
+    padding: 0;
+    text-align: center;
+    background-color: rgb(23, 73, 73);
+}
+
+.menu li{
+    display:inline-block;
+
+}
+
+.menu a{
+    display:inline-block;
+    text-decoration: none;
+    padding: 10px 30px;
+}
+
+
+.menu a:hover,
+.menu a:focus,
+.menu a:active {
+    background-color: rgb(19, 31, 31);
+}
