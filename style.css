@@ -14,7 +14,6 @@ a {
     color: #e5e2e2;
 }
 
-h1,
 h2,
 h3 {
     font-family: 'Montserrat', sans-serif;
@@ -22,12 +21,13 @@ h3 {
 }
 
 h1 {
+    font-family: 'Lora', serif;
     font-size: 50px;
     font-weight: bold;
     text-align: center;
     margin: 0;
     text-shadow: 0 30px 10px black;
-    color: #3b3734
+    color: #bababa
 }
 
 h2 {
@@ -35,7 +35,7 @@ h2 {
     text-align: center;
     margin-top: 0;
     padding-top: 10px;
-    padding-right: 80%;
+    padding-right: 85%;
 }
 
 h3 {
@@ -49,23 +49,29 @@ a {
 
 
 .cestovanie,
-.kontakt,
 .varenie,
 .sport,
 .architektura {
     background-color: #3b3734;
     padding-left: 9%;
     padding-right: 9%;
-    padding-top: 3%;
-    padding-bottom: 3%;
     font-size: 16px;
 }
 
+.kontakt {
+    background-color: #3b3734;
+    padding-left: 9%;
+    padding-right: 9%;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
 .patička {
-    background-color: #5f5954;
+    background-color: #909090;
     color:#e5e2e2;
     text-align: center;
-    padding: 2px 0px;
+    padding-top: 0px;
 }
 
 
@@ -74,7 +80,8 @@ a {
     height: 390px;
     padding-left: 5%;
     padding-right: 0%;
-    padding-bottom: 10px;
+    padding-bottom: 30px;
+    padding-top: 30px;
     float:right;
 }
 
@@ -89,13 +96,7 @@ a {
     width: 24%;
     border: 2px solid #ffffff;
 }
-.kontakt img {
-    border-radius: 20px;
-    width: 80px;
-    padding-left: 17%;
-    padding-right: 17%;
-    padding-top: 5%;
-}
+
 
 
 th,
@@ -118,8 +119,8 @@ table {
 .omne{
     padding-left: 20%;
     padding-right: 10%;
-    padding-top: 0%;
-    text-align: justify;
+    padding-top: 10px;
+    text-align: center;
     font-size: 16px;
     overflow: auto;
 
@@ -130,8 +131,8 @@ table {
 }
 
 .hlavicka{
-    background-image: url(obrazky/19.jpg);
-    padding:150px 30px;
+    background-image: url(obrazky/title3.jpg);
+    padding:50px 30px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
